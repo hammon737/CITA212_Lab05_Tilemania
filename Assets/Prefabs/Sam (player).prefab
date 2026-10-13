@@ -153,8 +153,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.035104156, y: 0}
-  m_Size: {x: 0.59279275, y: 1}
+  m_Offset: {x: -0.0369848, y: 0}
+  m_Size: {x: 0.522382, y: 1}
   m_Direction: 0
 --- !u!50 &9201580635713159425
 Rigidbody2D:
@@ -171,7 +171,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -225,3 +225,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97bca9085f69591438b4bb494a7593c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  moveSpeed: 10
