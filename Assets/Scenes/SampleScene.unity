@@ -79829,7 +79829,7 @@ Tilemap:
     m_Data: {fileID: -3356621079479179389, guid: 871adb33e8356a34dbfc93c98e4397d7, type: 3}
   m_TileMatrixArray:
   - serializedVersion: 2
-    m_RefCount: 22258
+    m_RefCount: 6102
     m_Data:
       e00: 1
       e01: 0
@@ -79883,6 +79883,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3222562070643060590, guid: b92b817b55ce0e94a892decda238d27f, type: 3}
+      propertyPath: jumpSpeed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5792210026645009056, guid: b92b817b55ce0e94a892decda238d27f, type: 3}
       propertyPath: m_Name
       value: Sam (player)
@@ -79926,6 +79930,14 @@ PrefabInstance:
     - target: {fileID: 7881028663958201520, guid: b92b817b55ce0e94a892decda238d27f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201580635713159425, guid: b92b817b55ce0e94a892decda238d27f, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201580635713159425, guid: b92b817b55ce0e94a892decda238d27f, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
