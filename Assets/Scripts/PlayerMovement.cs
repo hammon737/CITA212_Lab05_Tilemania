@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         myRigidbody.gravityScale = 0f;
-        Vector2 climbVelocity = new Vector2(myRigidbody.linearVelocity.x, moveInput.y*climbSpeed);
+        Vector2 climbVelocity = new Vector2(myRigidbody.linearVelocity.x, moveInput.y * climbSpeed);
         myRigidbody.linearVelocity = climbVelocity;
 
         bool hasVerticalSpeed = Mathf.Abs(myRigidbody.linearVelocity.y) > Mathf.Epsilon;
