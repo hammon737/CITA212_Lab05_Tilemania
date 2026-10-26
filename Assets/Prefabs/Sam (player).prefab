@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9201580635713159425}
   - component: {fileID: 697468038384550019}
   - component: {fileID: 3222562070643060590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sam (player)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 341959167
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6148105541944609538, guid: bf0074c8b4acc36429606a70759d0333, type: 3}
@@ -129,7 +129,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 16f7b6240dc88ef49a195382e4782baf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -153,8 +153,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0369848, y: -0.030481815}
-  m_Size: {x: 0.522382, y: 0.93903637}
+  m_Offset: {x: -0.052109003, y: -0.028015494}
+  m_Size: {x: 0.49213362, y: 0.9341037}
   m_Direction: 0
 --- !u!50 &9201580635713159425
 Rigidbody2D:
@@ -225,5 +225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97bca9085f69591438b4bb494a7593c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 10
+  moveSpeed: 7
   jumpSpeed: 8
+  climbSpeed: 5
