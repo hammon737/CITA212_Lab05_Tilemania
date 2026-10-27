@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9201580635713159425}
   - component: {fileID: 697468038384550019}
   - component: {fileID: 3222562070643060590}
+  - component: {fileID: 4637197784319338811}
   m_Layer: 8
   m_Name: Sam (player)
   m_TagString: Untagged
@@ -153,8 +154,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.052109003, y: -0.028015494}
-  m_Size: {x: 0.49213362, y: 0.9341037}
+  m_Offset: {x: -0.020384789, y: -0.02861929}
+  m_Size: {x: 0.6031666, y: 0.9353113}
   m_Direction: 0
 --- !u!50 &9201580635713159425
 Rigidbody2D:
@@ -226,5 +227,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 7
-  jumpSpeed: 8
+  jumpSpeed: 10
   climbSpeed: 5
+--- !u!61 &4637197784319338811
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5792210026645009056}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.024173737, y: -0.41590905}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.5469017, y: 0.14553785}
+  m_EdgeRadius: 0
