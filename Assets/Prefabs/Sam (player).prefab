@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 4637197784319338811}
   m_Layer: 8
   m_Name: Sam (player)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 341959167
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6148105541944609538, guid: bf0074c8b4acc36429606a70759d0333, type: 3}
