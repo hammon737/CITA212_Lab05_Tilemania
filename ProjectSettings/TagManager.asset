@@ -21,7 +21,7 @@ TagManager:
   - Hazards
   - Bullets
   - Interactables
-  - 
+  - Doors
   - 
   - 
   - 
@@ -56,6 +56,9 @@ TagManager:
     locked: 0
   - name: Hazards
     uniqueID: 2611778253
+    locked: 0
+  - name: Doors
+    uniqueID: 2882198169
     locked: 0
   - name: Enemy
     uniqueID: 98397785
