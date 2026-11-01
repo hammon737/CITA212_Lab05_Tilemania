@@ -82,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1853199127
-  m_SortingLayer: 7
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 556175475743165966, guid: b847bf1a4372f7b468b7a89643bbe30a, type: 3}
@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinPickup
   coinPickupSFX: {fileID: 8300000, guid: a45a523bd44cd884e9d89476593dcf71, type: 3}
+  pointsForCoinPickup: 100
 --- !u!82 &8838245347642537179
 AudioSource:
   m_ObjectHideFlags: 0
@@ -180,7 +181,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
