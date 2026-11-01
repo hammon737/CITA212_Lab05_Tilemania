@@ -102,5 +102,11 @@ public class PlayerMovement : MonoBehaviour
             myAnimator.SetTrigger("IsDying");
             myRigidbody.linearVelocity = deathKick;
         }
+
+        else if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Water")))
+        {
+            isAlive = false;
+            myAnimator.SetTrigger("IsDying");
+        }
     }
 }
