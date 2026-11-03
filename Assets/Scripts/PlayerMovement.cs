@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 5f;
     [SerializeField] Vector2 deathKick = new Vector2(10f, 20f);
+    [SerializeField] float shotDelay = 1f;
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
     Vector2 moveInput;
@@ -91,11 +93,18 @@ public class PlayerMovement : MonoBehaviour
         { 
             return; 
         }
-        myAnimator.SetTrigger("IsShooting");
-        Time.timeScale = 0f;
-        Instantiate(bullet, gun.position, transform.rotation);
-        Time.timeScale = 1f;
+        else
+        {
+            StartCoroutine(Gunshot());
+        }
     }
+    IEnumerator Gunshot()
+    {
+        myAnimator.SetTrigger("IsShooting");
+        yield return new WaitForSecondsRealtime(shotDelay);
+        Instantiate(bullet, gun.position, transform.rotation);
+    }
+    
 
     void Die()
     {
@@ -104,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("IsDying");
             myRigidbody.linearVelocity = deathKick;
+            Debug.Log("Animation played");
             FindAnyObjectByType<GameSession>().ProcessPlayerDeath();
         }
 

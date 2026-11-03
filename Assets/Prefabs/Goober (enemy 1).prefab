@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5156732685060584398}
   m_Layer: 11
   m_Name: Goober (enemy 1)
-  m_TagString: Enemy
+  m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 98397785
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4202276313728892354, guid: c9f289b0f72916c428b598b579d5624b, type: 3}
@@ -230,7 +230,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.3374195, y: -0.44733548}
+  m_Offset: {x: 0.37261295, y: -0.44733548}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -240,5 +240,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.13775635, y: 0.77395153}
+  m_Size: {x: 0.06736946, y: 0.77395153}
   m_EdgeRadius: 0
