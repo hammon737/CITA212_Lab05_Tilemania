@@ -91,7 +91,10 @@ public class PlayerMovement : MonoBehaviour
         { 
             return; 
         }
+        myAnimator.SetTrigger("IsShooting");
+        Time.timeScale = 0f;
         Instantiate(bullet, gun.position, transform.rotation);
+        Time.timeScale = 1f;
     }
 
     void Die()

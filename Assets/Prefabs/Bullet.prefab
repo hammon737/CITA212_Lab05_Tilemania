@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 341959167
-  m_SortingLayer: 7
+  m_SortingLayer: 9
   m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 383701270112291272, guid: bdd1d6f5d5c2e6147a6d642e7285ee5c, type: 3}
@@ -170,3 +170,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6660db1fcbb62d74faef4048c9fea3f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
+  bulletSpeed: 10
