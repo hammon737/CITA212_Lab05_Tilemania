@@ -89970,7 +89970,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3222562070643060590, guid: b92b817b55ce0e94a892decda238d27f, type: 3}
       propertyPath: shotDelay
-      value: 0.2
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 5792210026645009056, guid: b92b817b55ce0e94a892decda238d27f, type: 3}
       propertyPath: m_Name
