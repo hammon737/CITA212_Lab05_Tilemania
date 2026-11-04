@@ -116,7 +116,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 341959167
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6148105541944609538, guid: bf0074c8b4acc36429606a70759d0333, type: 3}
@@ -262,6 +262,7 @@ MonoBehaviour:
   jumpSpeed: 8
   climbSpeed: 5
   deathKick: {x: 5, y: 10}
+  shotDelay: 0.2
   bullet: {fileID: 3686294623488088914, guid: bdc42cadea56e4e4e9ff492b2ea3e0d9, type: 3}
   gun: {fileID: 8465152146981524774}
 --- !u!61 &4637197784319338811
